@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MyApplication" parent="BaseTheme">
+        <!-- Point 3-->
+        <item name="android:windowSplashScreenBackground">#FFFFFF</item>
+        <!-- Point 2-->
+        <item name="android:windowSplashScreenIconBackgroundColor">#8BC34A</item>
+        <!-- Point 1-->
+        <item name="android:windowSplashScreenAnimatedIcon">
+            @drawable/ic_launcher_foreground
+        </item>
+        <!-- Point 4-->
+        <item name="android:windowSplashScreenBrandingImage">
+            @drawable/ic_calories
+        </item>
+    </style>
+
+</resources>

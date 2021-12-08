@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/productDetailsSummaryFragment"
+        android:icon="@drawable/ic_tab_fiche"
+        android:title="fiche" />
+    <item
+        android:id="@+id/productDetailsNutritionFragment"
+        android:icon="@drawable/ic_tab_nutrition"
+        android:title="nutrition" />
+    <item
+        android:id="@+id/productDetailsNutritionalValuesFragment"
+        android:icon="@drawable/ic_tab_tableau"
+        android:title="tableau" />
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_details"
+    app:startDestination="@id/productDetailsSummaryFragment">
+
+    <fragment
+        android:id="@+id/productDetailsNutritionalValuesFragment"
+        android:name="com.mehdi.myapplication.fragment.ProductDetailsNutritionalValuesFragment"
+        android:label="ProductDetailsNutritionalValuesFragment" />
+    <fragment
+        android:id="@+id/productDetailsSummaryFragment"
+        android:name="com.mehdi.myapplication.fragment.ProductDetailsSummaryFragment"
+        android:label="ProductDetailsSummaryFragment" />
+    <fragment
+        android:id="@+id/productDetailsNutritionFragment"
+        android:name="com.mehdi.myapplication.fragment.ProductDetailsNutritionFragment"
+        android:label="ProductDetailsNutritionFragment" />
+</navigation>
